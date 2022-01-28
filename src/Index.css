@@ -1,0 +1,161 @@
+body{
+    padding: 40px;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 30px;
+    background-color: blue;
+    margin: 0px;
+    margin-left: 44vw;
+}
+.title .the{
+    transform: rotate(-90deg);
+    position: absolute;
+    color: rgba(0, 0, 0, 0.712);
+}
+.title .siren{
+    position: absolute;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    padding-top: 90px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    text-decoration: underline black 2px;
+}
+hr{
+    margin-top: 10px;
+    margin-left:110px;
+    margin-right:80px;
+    margin-bottom:10px;
+}
+.pic{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(./pic.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.main h2,.main p{
+    position: relative;
+    top: 450px;
+    left: 50px; 
+}
+.sub div{
+    width: 350px;
+    height: 250px;
+    margin: 11px;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(./pic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sub div h2,.sub div p{
+    position: relative;
+    top: 110px;
+    left: 30px;
+    color: white;
+}
+.late{
+    display: flex;
+    flex-wrap: wrap;
+}
+.latest{
+    width: 350px;
+    margin: 20px;
+}
+.latest img{
+    width: 350px;
+    height: 200px;
+}
+.latest div{
+    margin: 20px;
+}
+.art{
+    display: flex;
+    margin: 20px;
+    width: 60vw;
+}
+.art img{
+    width: 350px;
+    height: 200px;
+}
+.artext{
+    padding: 20px;
+}
+.add{
+    height: 100vh;
+    padding-top: 100px;
+    width: 350px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 25px;
+}
+.latestt{
+    display: flex;
+    flex-wrap: wrap;
+}
+.back{
+    background-image: url(./pic.jpg);
+    width: 60vw;
+    height: 70vh;
+    background-size: cover;
+    color: white;
+}
+.back h2,.back p{
+    position: relative;
+    top: 70%;
+    left: 5%;
+}
+.top{
+    width: 300px;
+    margin: 20px;
+}
+.top img{
+    height: 200px;
+    width: 350px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.small{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.small img{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.small p{
+    margin: 0px;
+    padding: 10px;
+}
