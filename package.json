@@ -2,7 +2,7 @@
   "name": "work",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://narayani2327.github.io/react-front",
+  "homepage":"https://narayani2327.github.io/reactfront",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
